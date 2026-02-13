@@ -40,7 +40,7 @@ public class BasicLL {
     // Search element
     public static int search(String key) {
         int index = 0;
-        Node temp = head;
+        Node temp  = head;
         while (temp != null) {
             if (temp.data.equals(key)) {
                 return index;
